@@ -1,0 +1,22 @@
+.pseudo::before{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    right: 30px;
+    background-color: #1e293b;
+    top: 50%;
+}
+.pseudo::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    left: 30px;
+    background-color: #1e293b;
+    top: 50%;
+}
+.goUp{
+    top: -15px !important;
+    opacity: 1 !important;
+}

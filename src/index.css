@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  padding-top: 90px;
+}
+.active{
+  @apply bg-custom-teal rounded-md px-3 py-2
+}

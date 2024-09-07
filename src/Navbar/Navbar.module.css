@@ -1,0 +1,20 @@
+@media (max-width: 350px) {
+    .bars {
+        position: relative;
+        top: 45px;
+        left: 60px;
+        margin-top: 12px;
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .header {
+        position: relative;
+        left: 8px;
+        margin: 0 !important;
+        padding-left: -30px;
+        top: -22px;
+        font-size: 5px !important;
+    }
+}
+

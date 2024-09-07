@@ -1,0 +1,23 @@
+@media (max-width: 350px) {
+    .small{
+        font-size:  20px !important;
+    }
+}
+.pseudo::before{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    right: 30px;
+    background-color: white;
+    top: 50%;
+}
+.pseudo::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    left: 30px;
+    background-color: white;
+    top: 50%;
+}
